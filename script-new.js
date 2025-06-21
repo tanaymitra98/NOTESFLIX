@@ -79,9 +79,9 @@ const subjectLinks = {
   'BCSE303P': 'https://drive.google.com/open?id=1owlTPxkWyPTYmy8lWG2jFn0EFjT7rWlX&usp=drive_copy', // OPERATING SYSTEMS LLAB(BCSE303P)
   'BCSE303L': 'https://drive.google.com/open?id=1PuXBbGVq62wKphN6XITEPWlRwG8BTjgC&usp=drive_copy', // OPERATING LSYSTEMS(BCSE303L)
   'BECE210L': 'https://drive.google.com/open?id=1NfFN6LU3T3ZClPZXDMI_varwzPvTHMlC&usp=drive_copy', // Optical Fiber Communication (BECE210L)
-  'PRINCIPLES': 'https://drive.google.com/open?id=1-a1Z9ZF-cxh6Dwy83otqw-DKIfjg0tFi&usp=drive_copy', // Principles of Communication Sys...
-  'BMAT202P': 'https://drive.google.com/open?id=1wL-7WQrGhKtY4uvNhBHK10d_cZJ6fLBV&usp=drive_copy', // PROBABILITY AND STATISTICS LLAB(BMAT202P)
-  'BMAT202L': 'https://drive.google.com/open?id=1hp07v-Dr7x-K1xVTSFatko7xuACOnlOn&usp=drive_copy', // PROBABILITY AND LSTATISTICS(BMAT202L)
+  'PRINCIPLES': 'https://drive.google.com/open?id=1hp07v-Dr7x-K1xVTSFatko7xuACOnlOn&usp=drive_copy', // Principles of Communication Sys...
+  'BMAT202P': 'https://drive.google.com/open?id=13ArKNusYUkQjS8CgW_27-NSO7IuBwp4m&usp=drive_copy', // PROBABILITY AND STATISTICS LLAB(BMAT202P)
+  'BMAT202L': 'https://drive.google.com/drive/folders/1ZUBrou1K0vUDA5rKYB7RKxA59I3gR0Sf', // PROBABILITY AND LSTATISTICS(BMAT202L)
   'BECE207L': 'https://drive.google.com/open?id=13ArKNusYUkQjS8CgW_27-NSO7IuBwp4m&usp=drive_copy', // RANDOM LPROCESSES(BECE207L)
   'BCSE422L': 'https://drive.google.com/open?id=1ZUBrou1K0vUDA5rKYB7RKxA59I3gR0Sf&usp=drive_copy', // Robot Modeling and Simulation(BCSE422L)
   'BCSE425L': 'https://drive.google.com/open?id=1OsMLgutnUzpQhYLqV3CNr_nSmtFHOIOh&usp=drive_copy', // Robotic Perception(BCSE425L)
