@@ -20,7 +20,7 @@ const subjectLinks = {
   'BCSE306L': 'https://drive.google.com/open?id=1MUz8LbPKI_Q4BDJDwe2HUiJ7QjHA9rRA&usp=drive_copy', 
   'BCSE428L': 'https://drive.google.com/open?id=1t4T2sDAqWLhnMQwsoJsl4fWu7GCBv4Bq&usp=drive_copy', 
   'BECE355L': 'https://drive.google.com/open?id=1O3qoSCVoPFx1eKwccEsyeyDMOCrjJc2N&usp=drive_copy', 
-  'BCSE 355L': 'https://drive.google.com/open?id=1adnLY6SsJpBHFeJXmVOmBixaSHe0J4ne&usp=drive_copy', 
+  'BCSE': 'https://drive.google.com/open?id=1adnLY6SsJpBHFeJXmVOmBixaSHe0J4ne&usp=drive_copy', 
   'BCSE427L': 'https://drive.google.com/open?id=1EpZbti1kJ67tEASvFbIGysXgwFw8v_bV&usp=drive_copy', 
   'BCSE307P': 'https://drive.google.com/open?id=1V0meEVs57VyJ-NMWAN2ckzz2mDAWrTZl&usp=drive_copy', 
   'BCSE307L': 'https://drive.google.com/open?id=138olo7C60V4Sjl8knbb-mpeh56pZVEHW&usp=drive_copy', 
