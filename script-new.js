@@ -86,9 +86,9 @@ const subjectLinks = {
   'BCSE422L': 'https://drive.google.com/open?id=1ZUBrou1K0vUDA5rKYB7RKxA59I3gR0Sf&usp=drive_copy', // Robot Modeling and Simulation(BCSE422L)
   'BCSE425L': 'https://drive.google.com/open?id=1OsMLgutnUzpQhYLqV3CNr_nSmtFHOIOh&usp=drive_copy', // Robotic Perception(BCSE425L)
   'BCSE421L': 'https://drive.google.com/open?id=1Sslipm9XjYmWwXrcJYrl436b8GfNPQIS&usp=drive_copy', // ROBOTICS : KINEMATICSBCSE421L
-  'BCSE421L': 'https://drive.google.com/open?id=1z16tvlgN8syJtJJrNMPJEM58PO88AuTM&usp=drive_copy', // Robotics and Automation, BECE312L
-  'BECE409P': 'https://drive.google.com/open?id=1JkAEkMYg4CTchkxsj2Ks5bstwloQyXmx&usp=drive_copy', // SENSOR TECHNOLOGY LLAB(BECE409P)
-  'BECE409E': 'https://drive.google.com/open?id=1Ila4xdCFmfBjRXF2NpY7_634WWGnd5qU&usp=drive_copy', // SENSOR LTECHNOLOGY(BECE409E)
+  'BCSE421L': 'https://drive.google.com/drive/folders/1Ila4xdCFmfBjRXF2NpY7_634WWGnd5qU', // Robotics and Automation, BECE312L
+  'BECE409P': 'https://https://drive.google.com/drive/folders/19Jtf1J8ol4LlS_KH1K1dp-xdU1zsvznQ', // SENSOR TECHNOLOGY LLAB(BECE409P)
+  'BECE409E': 'https://drive.google.com/drive/folders/1sPRUQaPCYAnhf7w4zQvW-WlTRm6Rt2Fy', // SENSOR LTECHNOLOGY(BECE409E)
   'BCSE420L': 'https://drive.google.com/open?id=19Jtf1J8ol4LlS_KH1K1dp-xdU1zsvznQ&usp=drive_copy', // SENSORS, ACTUATORS AND SIGNAL CONDITIONING (BCSE420L)
   'BCSE420P': 'https://drive.google.com/open?id=1sPRUQaPCYAnhf7w4zQvW-WlTRm6Rt2Fy&usp=drive_copy', // SENSORS, ACTUATORS AND SIGNAL CONDITIONING (BCSE420P)
   'BEE412L': 'https://drive.google.com/open?id=1uOKC4JDjMeh5A8GSVcpHAM2v2GGa7R3Y&usp=drive_copy', // Sensors and Actuators(BEE412L)
