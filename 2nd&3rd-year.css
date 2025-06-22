@@ -1,14 +1,31 @@
-body{
+/* Base Styles */
+:root {
+    --primary-color: #8945d2;
+    --hover-color: #7b3cbf;
+    --text-color: #ffffff;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    padding: 20px 0;
+    padding: 15px;
     background: linear-gradient(135deg, #1a0033 0%, #2d0b3d 50%, #4a1a5e 100%);
     background-attachment: fixed;
-    background-attachment: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .search-container {
@@ -33,87 +50,167 @@ body{
 .search-input:focus {
     border-color: #5e3a8c;
     box-shadow: 0 2px 15px rgba(123, 82, 185, 0.3);
+    transform: translateY(-1px);
 }
 
-
-.grid{
+.grid {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+    width: 95%;
+    max-width: 1600px;
+    margin: 0 auto;
     background: transparent;
-   
-    
-    
-   
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.tile{
+.tile {
     display: flex;
     justify-content: center;
     align-items: center;
     background: transparent;
-   
+    min-height: 80px;
+    padding: 5px;
 }
-
-
-
-
 
 button {
-    margin-left: 60px;
-    position: absolute;
-    margin-top: 60px;
-    background: #8945d2;
+    position: relative;
+    background: var(--primary-color);
     color: white;
     font-family: inherit;
-    padding: 0.35em;
-    padding-left: 1.2em;
-    font-size: 17px;
+    padding: 12px 20px 12px 25px;
+    font-size: 1rem;
     font-weight: 500;
-    border-radius: 0.9em;
+    border-radius: 12px;
     border: none;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 0 0 1.6em -0.6em #714da6;
     overflow: hidden;
-    position: relative;
-    height: 4.5em;
-    padding-right: 2.5em;
+    width: 100%;
+    height: 100%;
+    min-height: 70px;
     cursor: pointer;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-  button .icon {
+    transition: all 0.3s ease;
+    text-align: left;
+    line-height: 1.4;
+}
+
+button .icon {
     background: white;
-    margin-left: 0.8em;
     position: absolute;
+    right: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3.6em;
-    width: 2.0em;
-    border-radius: 0.8em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #e4e3e6;
-    right: 0.4em;
-    transition: all 0.4s;
-  }
-  
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+button:hover {
+    background: var(--hover-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25), inset 0 0 1.6em -0.6em #5a3a7a;
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), inset 0 0 1.6em -0.6em #5a3a7a;
+}
+
+button .icon svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+    color: var(--primary-color);
+}
+
 button:hover .icon {
-    width: calc(100% - 0.6em);
-  }
-  
-  button .icon svg {
-    width: 1.0em;
-    transition: transform 0.3s;
-    color: #7b52b9;
-  }
-  
-button:hover .icon svg {
-    transform: translateX(0.1em);
-  }
-  
+    transform: translateX(2px);
+}
+
 button:active .icon {
-    transform: scale(0.95);
-  }
-  
+    transform: scale(0.9);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 12px;
+    }
+    
+    button {
+        font-size: 0.95rem;
+        padding: 10px 18px 10px 22px;
+        min-height: 65px;
+    }
+    
+    button .icon {
+        height: 36px;
+        width: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        gap: 10px;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .search-container {
+        width: 95%;
+        margin: 10px auto 20px;
+    }
+    
+    .search-input {
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+    
+    button {
+        padding: 12px 18px 12px 20px;
+        min-height: 70px;
+        border-radius: 10px;
+    }
+    
+    button .icon {
+        height: 34px;
+        width: 34px;
+    }
+}
+
+/* For very small devices */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .grid {
+        gap: 8px;
+    }
+    
+    button {
+        font-size: 0.9rem;
+        padding: 10px 16px 10px 18px;
+        min-height: 65px;
+    }
+    
+    button .icon {
+        height: 32px;
+        width: 32px;
+    }
+    
+    .search-input {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+}

@@ -14,13 +14,12 @@
     background: linear-gradient(-45deg, #1a0033, #2d0b5a, #1a0033, #0a0011);
     background-size: 400% 400%;
     animation: gradientFlow 15s ease infinite;
-    min-height: 800px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 60px;
-    padding: 60px 0;
+    padding: 4rem 1rem;
     position: relative;
     overflow: hidden;
 }
@@ -32,62 +31,218 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.7) 100%);
+    background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
     pointer-events: none;
+    z-index: 1;
 }
 
-/* From Uiverse.io by cssbuttons-io */ 
-button {
-    --glow-color: rgb(156, 102, 215);
-    --glow-spread-color: rgba(138, 43, 226, 0.6);
-    --enhanced-glow-color: rgb(200, 170, 230);
-    --btn-color: rgb(100, 61, 136);
-    border: 0.25em solid var(--glow-color);
-    padding: 1.4em 4em;
-    margin: 10px 0;
-    color: var(--glow-color);
-    font-size: 18px;
-    font-weight: 600;
-    background-color: var(--btn-color);
-    border-radius: 1em;
-    outline: none;
-    box-shadow: 0 0 1em 0.25em var(--glow-color),
-                0 0 4em 1em var(--glow-spread-color),
-                inset 0 0 0.75em 0.25em var(--glow-color);
-    text-shadow: 0 0 0.5em var(--glow-color);
-    position: relative;
-    transition: all 0.3s;
-    width: 250px;
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
     text-align: center;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-   
-   button::after {
-    pointer-events: none;
-    content: "";
-    position: absolute;
-    top: 120%;
-    left: 0;
-    height: 100%;
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
     width: 100%;
-    background-color: var(--glow-spread-color);
-    filter: blur(2em);
-    opacity: .7;
-    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-   }
-   
-   button:hover {
-    color: var(--btn-color);
-    background-color: var(--glow-color);
-    box-shadow: 0 0 1em .25em var(--glow-color),
-           0 0 4em 2em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color);
-   }
-   
-   button:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-           0 0 2.5em 2em var(--glow-spread-color),
-           inset 0 0 .5em .25em var(--glow-color);
-   }
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.year-button {
+    --glow-color: #8a2be2;
+    --glow-spread-color: #9c27b0;
+    --btn-color: #4a148c;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 1.5rem;
+    background: rgba(74, 20, 140, 0.3);
+    border: 2px solid rgba(138, 43, 226, 0.3);
+    border-radius: 16px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    min-height: 120px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.year-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.1) 0%, rgba(156, 39, 176, 0.1) 100%);
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.year-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(255, 255, 255, 0.1), 
+        transparent);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.year-button:hover {
+    transform: translateY(-5px);
+    border-color: var(--glow-color);
+    box-shadow: 0 12px 40px rgba(138, 43, 226, 0.3);
+}
+
+.year-button:hover::before {
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.2) 0%, rgba(156, 39, 176, 0.2) 100%);
+}
+
+.year-button:hover::after {
+    left: 100%;
+}
+
+.year-button:active {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(138, 43, 226, 0.2);
+}
+
+.button-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.button-subtext {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+}
+
+.year-button:hover .button-text {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.year-button:hover .button-subtext {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Footer */
+.footer {
+    background: rgba(10, 0, 20, 0.8);
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+}
+
+.footer p {
+    margin: 0.3rem 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .section-title {
+        font-size: 2.2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .year-button {
+        padding: 1.75rem 1.5rem;
+        min-height: 110px;
+    }
+    
+    .button-text {
+        font-size: 1.4rem;
+    }
+    
+    .button-subtext {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lower {
+        padding: 3rem 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .button-container {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        gap: 1.5rem;
+    }
+    
+    .year-button {
+        padding: 1.5rem;
+        min-height: 100px;
+    }
+    
+    .button-text {
+        font-size: 1.3rem;
+    }
+    
+    .button-subtext {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lower {
+        padding: 2.5rem 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .year-button {
+        padding: 1.25rem;
+        min-height: 90px;
+    }
+    
+    .button-text {
+        font-size: 1.2rem;
+    }
+    
+    .button-subtext {
+        font-size: 0.8rem;
+    }
+    
+    .footer {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+}

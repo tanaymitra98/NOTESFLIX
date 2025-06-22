@@ -112,6 +112,7 @@ const subjectLinks = {
 
 
 const subjectFolderNames = {
+  'BCHY101L' : 'BCHY101L',
   'BSTS301P': 'Advanced Competitive Coding(BSTS301P)',
   'BECE206P': 'ANALOG CIRCUITS LAB(BECE206P)',
   'BECE206L': 'ANALOG CIRCUITS(BECE206L)',
