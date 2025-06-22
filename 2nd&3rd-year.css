@@ -6,10 +6,8 @@ body{
     min-height: 100vh;
     margin: 0;
     padding: 20px 0;
-    background-image: url('images/1st-year.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(135deg, #1a0033 0%, #2d0b3d 50%, #4a1a5e 100%);
+    background-attachment: fixed;
     background-attachment: fixed;
 }
 
