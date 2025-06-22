@@ -63,7 +63,7 @@ button {
     margin-left: 60px;
     position: absolute;
     margin-top: 60px;
-    background: #a370f0;
+    background: #8945d2;
     color: white;
     font-family: inherit;
     padding: 0.35em;
@@ -72,31 +72,31 @@ button {
     font-weight: 500;
     border-radius: 0.9em;
     border: none;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     display: flex;
     align-items: center;
     box-shadow: inset 0 0 1.6em -0.6em #714da6;
     overflow: hidden;
     position: relative;
-    height: 4.8em;
-    padding-right: 2.1em;
+    height: 4.5em;
+    padding-right: 2.5em;
     cursor: pointer;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   button .icon {
     background: white;
-    margin-left: 1em;
+    margin-left: 0.8em;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 4.9em;
-    width: 1.9em;
+    height: 3.6em;
+    width: 2.0em;
     border-radius: 0.8em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
-    right: 0.1em;
-    transition: all 0.3s;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #e4e3e6;
+    right: 0.4em;
+    transition: all 0.4s;
   }
   
 button:hover .icon {
@@ -104,7 +104,7 @@ button:hover .icon {
   }
   
   button .icon svg {
-    width: 1.1em;
+    width: 1.0em;
     transition: transform 0.3s;
     color: #7b52b9;
   }
