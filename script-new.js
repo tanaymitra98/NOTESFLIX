@@ -72,28 +72,28 @@ const subjectLinks = {
   'BHUM104L': 'https://drive.google.com/open?id=1LGTVoQj57Vi7SpOejRa7zjGbLN7oQ6Ob&usp=drive_copy', // Macro Economics(BHUM104L)
   'BMGT101': 'https://drive.google.com/open?id=1r5hEokHuBPlQ2mUL1GlyvUN9sqi_rcz-&usp=drive_copy', // Management and Principles of Leadership(BMGT101)
   'BCSE424L': 'https://drive.google.com/open?id=1cx5qf65KL_flOR9UJAcNe5rHAOIy6tK7&usp=drive_copy', // ML FOR ROBOTICS (BCSE424L)
-  'BECE204P': 'https://drive.google.com/open?id=13EvVxdAl6b9IY09ySmHUIcjrFU3Z7Llk&usp=drive_copy', // MPMCP LLAB(BECE204P)
-  'BECE204L': 'https://drive.google.com/open?id=1m4QZETW2ZVrDKit3P3w8uSPN5ss78-4M&usp=drive_copy', // LMPMC(BECE204L)
+  'BECE204P': 'https://drive.google.com/open?id=13EvVxdAl6b9IY09ySmHUIcjrFU3Z7Llk&usp=drive_copy', // MPMC LLAB(BECE204P)
+  'BECE204L': 'https://drive.google.com/open?id=1m4QZETW2ZVrDKit3P3w8uSPN5ss78-4M&usp=drive_copy', // MPMC(BECE204L)
   'BCSE409L': 'https://drive.google.com/open?id=1N7UnRXYUHE1cZtnc-fUAGZRt-TG2vi6C&usp=drive_copy', // Natural Language Processing(BCSE409L)
   'OOPS': 'https://drive.google.com/open?id=1qT9833RTR7DMxjYxNRYCLbprTZ0zwbqD&usp=drive_copy', // OOPS
   'BCSE303P': 'https://drive.google.com/open?id=1owlTPxkWyPTYmy8lWG2jFn0EFjT7rWlX&usp=drive_copy', // OPERATING SYSTEMS LLAB(BCSE303P)
   'BCSE303L': 'https://drive.google.com/open?id=1PuXBbGVq62wKphN6XITEPWlRwG8BTjgC&usp=drive_copy', // OPERATING LSYSTEMS(BCSE303L)
   'BECE210L': 'https://drive.google.com/open?id=1NfFN6LU3T3ZClPZXDMI_varwzPvTHMlC&usp=drive_copy', // Optical Fiber Communication (BECE210L)
-  'PRINCIPLES': 'https://drive.google.com/open?id=1hp07v-Dr7x-K1xVTSFatko7xuACOnlOn&usp=drive_copy', // Principles of Communication Sys...
-  'BMAT202P': 'https://drive.google.com/open?id=13ArKNusYUkQjS8CgW_27-NSO7IuBwp4m&usp=drive_copy', // PROBABILITY AND STATISTICS LLAB(BMAT202P)
-  'BMAT202L': 'https://drive.google.com/drive/folders/1ZUBrou1K0vUDA5rKYB7RKxA59I3gR0Sf', // PROBABILITY AND LSTATISTICS(BMAT202L)
-  'BECE207L': 'https://drive.google.com/open?id=13ArKNusYUkQjS8CgW_27-NSO7IuBwp4m&usp=drive_copy', // RANDOM LPROCESSES(BECE207L)
-  'BCSE422L': 'https://drive.google.com/open?id=1ZUBrou1K0vUDA5rKYB7RKxA59I3gR0Sf&usp=drive_copy', // Robot Modeling and Simulation(BCSE422L)
-  'BCSE425L': 'https://drive.google.com/open?id=1OsMLgutnUzpQhYLqV3CNr_nSmtFHOIOh&usp=drive_copy', // Robotic Perception(BCSE425L)
-  'BCSE421L': 'https://drive.google.com/open?id=1Sslipm9XjYmWwXrcJYrl436b8GfNPQIS&usp=drive_copy', // ROBOTICS : KINEMATICSBCSE421L
-  'BCSE421L': 'https://drive.google.com/drive/folders/1Ila4xdCFmfBjRXF2NpY7_634WWGnd5qU', // Robotics and Automation, BECE312L
-  'BECE409P': 'https://https://drive.google.com/drive/folders/19Jtf1J8ol4LlS_KH1K1dp-xdU1zsvznQ', // SENSOR TECHNOLOGY LLAB(BECE409P)
-  'BECE409E': 'https://drive.google.com/drive/folders/1sPRUQaPCYAnhf7w4zQvW-WlTRm6Rt2Fy', // SENSOR LTECHNOLOGY(BECE409E)
+  'PRINCIPLES': 'https://drive.google.com/open?id=1-a1Z9ZF-cxh6Dwy83otqw-DKIfjg0tFi&usp=drive_copy', // Principles of Communication Sys...
+  'BMAT202P': 'https://drive.google.com/open?id=1wL-7WQrGhKtY4uvNhBHK10d_cZJ6fLBV&usp=drive_copy', // PROBABILITY AND STATISTICS LLAB(BMAT202P)
+  'BMAT202L': 'https://drive.google.com/open?id=1hp07v-Dr7x-K1xVTSFatko7xuACOnlOn&usp=drive_copy', // PROBABILITY AND LSTATISTICS(BMAT202L)
+  'BECE207L': 'https://drive.google.com/open?id=1OsMLgutnUzpQhYLqV3CNr_nSmtFHOIOh&usp=drive_copy', // RANDOM LPROCESSES(BECE207L)
+  'BCSE422L': 'https://drive.google.com/open?id=1Sslipm9XjYmWwXrcJYrl436b8GfNPQIS&usp=drive_copy', // Robot Modeling and Simulation(BCSE422L)
+  'BCSE425L': 'https://drive.google.com/open?id=1z16tvlgN8syJtJJrNMPJEM58PO88AuTM&usp=drive_copy', // Robotic Perception(BCSE425L)
+  'BCSE421L': 'https://drive.google.com/open?id=1JkAEkMYg4CTchkxsj2Ks5bstwloQyXmx&usp=drive_copy', // ROBOTICS : KINEMATICSBCSE421L
+  'BECE312L': 'https://drive.google.com/open?id=1Ila4xdCFmfBjRXF2NpY7_634WWGnd5qU&usp=drive_copy', // Robotics and Automation, BECE312L
+  'BECE409P': 'https://drive.google.com/open?id=19Jtf1J8ol4LlS_KH1K1dp-xdU1zsvznQ&usp=drive_copy', // SENSOR TECHNOLOGY LLAB(BECE409P)
+  'BECE409E': 'https://drive.google.com/open?id=1sPRUQaPCYAnhf7w4zQvW-WlTRm6Rt2Fy&usp=drive_copy', // SENSOR LTECHNOLOGY(BECE409E)
   'BCSE420L': 'https://drive.google.com/open?id=19Jtf1J8ol4LlS_KH1K1dp-xdU1zsvznQ&usp=drive_copy', // SENSORS, ACTUATORS AND SIGNAL CONDITIONING (BCSE420L)
   'BCSE420P': 'https://drive.google.com/open?id=1sPRUQaPCYAnhf7w4zQvW-WlTRm6Rt2Fy&usp=drive_copy', // SENSORS, ACTUATORS AND SIGNAL CONDITIONING (BCSE420P)
   'BEE412L': 'https://drive.google.com/open?id=1uOKC4JDjMeh5A8GSVcpHAM2v2GGa7R3Y&usp=drive_copy', // Sensors and Actuators(BEE412L)
-  'BECM301P': 'https://drive.google.com/open?id=1URCsHZhzx2AhknfUh3mwuT383-LuF5Ky&usp=drive_copy', // SIGNAL PROCESSING LLAB(BECM301P)
-  'BECM301L': 'https://drive.google.com/open?id=1uvuVlAd29kxexsDGk8kHPTscHVu49XUB&usp=drive_copy', // SIGNAL LPROCESSING(BECM301L)
+  'BECM301P': 'https://drive.google.com/open?id=12a-ldf7rB3QdKfkSbdFSDSmEhtXVgHkA&usp=drive_copy', // SIGNAL PROCESSING LLAB(BECM301P)
+  'BECM301L': 'https://drive.google.com/drive/folders/1hMwEoz32o9HBNwu5qNwRiKND3ZnPeUCK', // SIGNAL LPROCESSING(BECM301L)
   'BECE202L': 'https://drive.google.com/open?id=1JrwSrY_RkJ9l4N6csDS3F-kvvd21HlzZ&usp=drive_copy', // SIGNALS AND LSYSTEMS(BECE202L)
   'BHUM109L': 'https://drive.google.com/open?id=15r5tv5bSUtjrnuDeWjGGq5Czq3_6dQxq&usp=drive_copy', // SIGNALS AND LSYSTEMS(BECE202L)
   'BCSE301P': 'https://drive.google.com/open?id=1LU3nv4b-ckKYfyA4sQ4f_EBb3ul0LHfT&usp=drive_copy', // SIGNALS AND LSYSTEMS(BECE202L)
@@ -170,7 +170,7 @@ const subjectFolderNames = {
   'BHUM104L': 'Macro Economics(BHUM104L)',
   'BMGT101': 'Management and Principles of Leadership(BMGT101)',
   'BCSE424L': 'ML FOR ROBOTICS (BCSE424L)',
-  'BECE204P': 'MPMCP LAB(BECE204P)',
+  'BECE204P': 'MPMC LAB(BECE204P)',
   'BECE204L': 'MPMC(BECE204L)',
   'BCSE409L': 'Natural Language Processing(BCSE409L)',
   'BCSE303P': 'OPERATING SYSTEMS LAB(BCSE303P)',
@@ -181,6 +181,7 @@ const subjectFolderNames = {
   'BECE207L': 'RANDOM PROCESSES(BECE207L)',
   'BCSE422L': 'Robot Modeling and Simulation(BCSE422L)',
   'BCSE425L': 'Robotic Perception(BCSE425L)',
+  'BECE312L': 'Robotics and automation(BECE312L)',
   'BECE409P': 'SENSOR TECHNOLOGY LAB(BECE409P)',
   'BECE409E': 'SENSOR TECHNOLOGY(BECE409E)',
   'BCSE420L': 'SENSORS, ACTUATORS AND SIGNAL CONDITIONING (BCSE420L)',
